@@ -103,6 +103,7 @@ div h2 {
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: right bottom, left;
+    background-size: auto, 70px;
 }
 
 .st {
@@ -123,12 +124,110 @@ div h2 {
 
 .about {
     padding: 130px 400px;
+    text-align: center;
+
 }
 
 main {
     max-width: 1140;
     margin: 0 auto;
 }
-.table{
+
+.table {
     text-align: center;
 }
+
+/* skills */
+.skills-container {
+    display: flex;
+    margin-top: 50px;
+    
+    
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px #0000000f;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    
+}
+
+.skill-title {
+    width: 174px;
+    height: 27px;
+    left: 260px;
+    top: 1969px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    width: 201px;
+    height: 196px;
+    left: 1136px;
+    top: 2016px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+.summaries {
+    display: flex;
+}
+
+.summary {
+    text-align: center;
+}
+
+/* .summary-title {
+    width: 203px;
+    height: 41px;
+    left: 230px;
+    top: 2533px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 70px;
+    margin-top: 125px;
+
+}
+
+.e-title {
+    font-weight: 700;
+    font-size: 25px;
+    width: 405px;
+    height: 34px;
+    left: 230px;
+    top: 2604px;
+    margin-bottom: 10px;
+
+}
+
+.f-title {
+    font-weight: 600;
+    font-size: 20px;
+    width: 309px;
+    height: 27px;
+    left: 230px;
+    top: 2648px;
+    margin-bottom: 20px;
+
+}
+
+.s-description {
+    color: #757575;
+    width: 511px;
+    height: 84px;
+    left: 230px;
+    top: 2695px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+} */
